@@ -1,0 +1,18 @@
+@use "colors";
+
+footer {
+  p,
+  a {
+    font-size: 0.75rem;
+    color: colors.$desaturated-blue;
+  }
+  a {
+    color: colors.$bright-blue;
+    text-decoration: underline;
+
+    &:hover {
+      color: colors.$dark-blue;
+      text-decoration: none;
+    }
+  }
+}
