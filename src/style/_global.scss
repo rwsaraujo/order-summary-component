@@ -13,3 +13,20 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.btn {
+  width: 100%;
+  max-width: 22.125rem;
+  height: 3.125rem;
+  border-radius: 0.625rem;
+  background: colors.$bright-blue;
+  color: white;
+  border: 1px solid #3c34a4;
+  box-shadow: 5px 5px 30px rgba(117, 106, 241, 0.5);
+
+  &:hover {
+    background: #766cf1;
+    border: none;
+    cursor: pointer;
+  }
+}
