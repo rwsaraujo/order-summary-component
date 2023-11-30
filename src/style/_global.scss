@@ -2,7 +2,7 @@
 
 body {
   width: 100%;
-  height: calc(100vh - 60px);
+  padding: 1rem 1rem 0 1rem;
   background: colors.$pale-blue
     url(../../src/images/pattern-background-desktop.svg) no-repeat;
   background-size: cover;
