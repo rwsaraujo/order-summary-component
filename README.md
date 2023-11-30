@@ -22,12 +22,12 @@ Users should be able to:
 
 ### Preview
 
-![](./)
+![](./preview/preview.gif)
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [Source Code](https://github.com/rwsaraujo/order-summary-component)
+- Live Site URL: [Live Site](https://order-summary-component-flame-nu.vercel.app/)
 
 ## My process
 
