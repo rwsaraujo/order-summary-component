@@ -43,8 +43,7 @@ main {
       background: colors.$very-pale-blue;
       margin-left: auto;
       margin-right: auto;
-      width: 100%;
-      max-width: 22.125rem;
+      width: calc(100% - 21.32%);
       justify-content: space-between;
       padding: 1.5rem;
       border-radius: 1rem;
@@ -94,6 +93,23 @@ main {
 
         &:hover {
           color: colors.$dark-blue;
+        }
+      }
+    }
+  }
+}
+
+// Responsive
+@media screen and (max-width: 375px) {
+  main {
+    .card {
+      .plans {
+        padding: 1rem;
+
+        h2,
+        span,
+        a {
+          font-size: 14px;
         }
       }
     }

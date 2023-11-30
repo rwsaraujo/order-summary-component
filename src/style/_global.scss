@@ -15,8 +15,7 @@ body {
 }
 
 .btn {
-  width: 100%;
-  max-width: 22.125rem;
+  width: calc(100% - 21.32%);
   height: 3.125rem;
   border-radius: 0.625rem;
   background: colors.$bright-blue;
